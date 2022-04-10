@@ -9,7 +9,10 @@ alias grb='git rebase '
 alias gcom='git commit -m '
 alias gall='git add .'
 alias gowl='git push --force-with-lease'
-
+alias gcoms='git commit -S -m '
+alias gpou='git push origin -u '
+alias mvnr='./mvnw spring-boot:run'
+alias ytub='youtube-dl --extract-audio --audio-format mp3'
 
 env=~/.ssh/agent.env
 
