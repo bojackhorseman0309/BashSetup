@@ -10,9 +10,13 @@ alias gcom='git commit -m '
 alias gall='git add .'
 alias gowl='git push --force-with-lease'
 alias gcoms='git commit -S -m '
+alias gbl='git branch'
+alias gbr='git branch -r'
 alias gpou='git push origin -u '
 alias mvnr='./mvnw spring-boot:run'
 alias ytub='youtube-dl --extract-audio --audio-format mp3'
+
+# Github SSH Config
 
 env=~/.ssh/agent.env
 
