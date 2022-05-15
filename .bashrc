@@ -16,6 +16,7 @@ alias gbsd='git branch -d'
 alias gbfd='git branch -D'
 alias gpou='git push origin -u '
 alias mvnr='./mvnw spring-boot:run'
+alias mvnrl='mvn spring-boot:run'
 alias ytub='youtube-dl --extract-audio --audio-format mp3'
 
 # Github SSH Config
