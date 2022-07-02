@@ -19,6 +19,11 @@ alias mvnr='./mvnw spring-boot:run'
 alias mvnrl='mvn spring-boot:run'
 alias ytub='youtube-dl --extract-audio --audio-format mp3'
 
+# Creates a branch and also push's it to it's origin
+function gcb {
+        git checkout -b "$1" && git push origin -u "$1"
+}
+
 # Github SSH Config
 
 env=~/.ssh/agent.env
